@@ -1,0 +1,6 @@
+{
+    "cmake.cmakePath": "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+    "cmake.generator": "Visual Studio 18 2026",
+    "cmake.configureSettings": {},
+    "cmake.buildDirectory": "${workspaceFolder}/build"
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="Y:\cppGmae\fightAirplane\game\build\CMakeFiles\dade146d9a553a162d38981636272742\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4E933EA3-2CDF-3814-8F45-6C3AD54AEAC3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

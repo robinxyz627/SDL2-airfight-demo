@@ -1,0 +1,10 @@
+^Y:\CPPGMAE\FIGHTAIRPLANE\GAME\CMAKELISTS.TXT
+setlocal
+X:\vs2026\src\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SY:/cppGmae/fightAirplane/game -BY:/cppGmae/fightAirplane/game/build --check-stamp-file Y:/cppGmae/fightAirplane/game/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

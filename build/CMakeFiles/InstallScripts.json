@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"Y:/cppGmae/fightAirplane/game/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,3034 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/"
+    found: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\VCPackages"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "X:\\vs2026\\src\\MSBuild\\Current\\bin\\Roslyn"
+        - "X:\\vs2026\\src\\Team Tools\\DiagnosticsHub\\Collector"
+        - "X:\\vs2026\\src\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "X:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "X:\\Windows Kits\\10\\bin\\\\x64"
+        - "X:\\vs2026\\src\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "X:\\vs2026\\src\\Common7\\IDE\\"
+        - "X:\\vs2026\\src\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\node_modules\\npm"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "X:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\robin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "X:\\Microsoft VS Code\\bin"
+        - "C:\\Qt\\Tools\\mingw1120_64\\bin"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\QtDesignStudio-4.1.1-lts\\qt6_design_studio_reduced_version\\bin"
+        - "C:\\Users\\robin\\AppData\\Roaming\\npm"
+        - "X:\\Project Graph"
+        - "X:\\Library\\SDL2"
+        - "X:\\Library\\SDL2\\lib\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "X:\\vs2026\\src\\VC\\vcpkg"
+      ENV{INCLUDE}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\include"
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\ATLMFC\\include"
+        - "X:\\vs2026\\src\\VC\\Auxiliary\\VS\\include"
+        - "X:\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "X:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "X:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "X:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "X:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ΘÇéτö¿Σ║Ä .NET Framework MSBuild τëêµ£¼ 18.0.5+e22287bf1
+      τöƒµêÉσÉ»σè¿µù╢Θù┤Σ╕║ 2026/1/26 16:05:10πÇé
+      
+      Φèéτé╣ 1 Σ╕èτÜäΘí╣τ¢«ΓÇ£Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdC\\CompilerIdC.vcxprojΓÇ¥(Θ╗ÿΦ«ñτ¢«µáç)πÇé
+      PrepareForBuild:
+        µ¡úσ£¿σê¢σ╗║τ¢«σ╜òΓÇ£Debug\\ΓÇ¥πÇé
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        µ¡úσ£¿σê¢σ╗║τ¢«σ╜òΓÇ£Debug\\CompilerIdC.tlog\\ΓÇ¥πÇé
+      InitializeBuildStatus:
+        µ¡úσ£¿σê¢σ╗║ΓÇ£Debug\\CompilerIdC.tlog\\unsuccessfulbuildΓÇ¥∩╝îσ¢áΣ╕║σ╖▓µîçσ«ÜΓÇ£AlwaysCreateΓÇ¥πÇé
+        µ¡úσ£¿σ»╣ΓÇ£Debug\\CompilerIdC.tlog\\unsuccessfulbuildΓÇ¥µëºΦíî Touch Σ╗╗σèíπÇé
+      ClCompile:
+        X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        µ¡úσ£¿σêáΘÖñµûçΣ╗╢ΓÇ£Debug\\CompilerIdC.tlog\\unsuccessfulbuildΓÇ¥πÇé
+        µ¡úσ£¿σ»╣ΓÇ£Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstateΓÇ¥µëºΦíî Touch Σ╗╗σèíπÇé
+      σ╖▓σ«îµêÉτöƒµêÉΘí╣τ¢«ΓÇ£Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdC\\CompilerIdC.vcxprojΓÇ¥(Θ╗ÿΦ«ñτ¢«µáç)τÜäµôìΣ╜£πÇé
+      
+      σ╖▓µêÉσèƒτöƒµêÉπÇé
+          0 Σ╕¬Φ¡ªσæè
+          0 Σ╕¬ΘöÖΦ»»
+      
+      σ╖▓τö¿µù╢Θù┤ 00:00:00.91
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        Y:/cppGmae/fightAirplane/game/build/CMakeFiles/4.1.1-msvc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "X:/Windows Kits/10/bin/x64/"
+      - "X:/vs2026/src/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "X:/vs2026/src/Common7/IDE/"
+      - "X:/vs2026/src/Common7/Tools/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Qt/6.6.3/mingw_64/bin/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/node_modules/npm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "X:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/"
+      - "X:/Microsoft VS Code/bin/"
+      - "C:/Qt/Tools/mingw1120_64/bin/"
+      - "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/bin/"
+      - "C:/Users/robin/AppData/Roaming/npm/"
+      - "X:/Project Graph/"
+      - "X:/Library/SDL2/"
+      - "X:/Library/SDL2/lib/x64/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "X:/vs2026/src/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "X:/vs2026/src/VC/vcpkg/"
+    searched_directories:
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\VCPackages"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "X:\\vs2026\\src\\MSBuild\\Current\\bin\\Roslyn"
+        - "X:\\vs2026\\src\\Team Tools\\DiagnosticsHub\\Collector"
+        - "X:\\vs2026\\src\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "X:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "X:\\Windows Kits\\10\\bin\\\\x64"
+        - "X:\\vs2026\\src\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "X:\\vs2026\\src\\Common7\\IDE\\"
+        - "X:\\vs2026\\src\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\node_modules\\npm"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "X:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\robin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "X:\\Microsoft VS Code\\bin"
+        - "C:\\Qt\\Tools\\mingw1120_64\\bin"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\QtDesignStudio-4.1.1-lts\\qt6_design_studio_reduced_version\\bin"
+        - "C:\\Users\\robin\\AppData\\Roaming\\npm"
+        - "X:\\Project Graph"
+        - "X:\\Library\\SDL2"
+        - "X:\\Library\\SDL2\\lib\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "X:\\vs2026\\src\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "X:/Windows Kits/10/bin/x64/"
+      - "X:/vs2026/src/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "X:/vs2026/src/Common7/IDE/"
+      - "X:/vs2026/src/Common7/Tools/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Qt/6.6.3/mingw_64/bin/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/node_modules/npm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "X:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/"
+      - "X:/Microsoft VS Code/bin/"
+      - "C:/Qt/Tools/mingw1120_64/bin/"
+      - "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/bin/"
+      - "C:/Users/robin/AppData/Roaming/npm/"
+      - "X:/Project Graph/"
+      - "X:/Library/SDL2/"
+      - "X:/Library/SDL2/lib/x64/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "X:/vs2026/src/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "X:/vs2026/src/VC/vcpkg/"
+    searched_directories:
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/lld-link"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "X:/Windows Kits/10/bin/x64/lld-link.com"
+      - "X:/Windows Kits/10/bin/x64/lld-link.exe"
+      - "X:/Windows Kits/10/bin/x64/lld-link"
+      - "X:/vs2026/src/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "X:/vs2026/src/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "X:/vs2026/src/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "X:/vs2026/src/Common7/IDE/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/lld-link"
+      - "X:/vs2026/src/Common7/Tools/lld-link.com"
+      - "X:/vs2026/src/Common7/Tools/lld-link.exe"
+      - "X:/vs2026/src/Common7/Tools/lld-link"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Qt/6.6.3/mingw_64/bin/lld-link.com"
+      - "C:/Qt/6.6.3/mingw_64/bin/lld-link.exe"
+      - "C:/Qt/6.6.3/mingw_64/bin/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/node_modules/npm/lld-link.com"
+      - "C:/Program Files/nodejs/node_modules/npm/lld-link.exe"
+      - "C:/Program Files/nodejs/node_modules/npm/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "X:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "X:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "X:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "X:/Microsoft VS Code/bin/lld-link.com"
+      - "X:/Microsoft VS Code/bin/lld-link.exe"
+      - "X:/Microsoft VS Code/bin/lld-link"
+      - "C:/Qt/Tools/mingw1120_64/bin/lld-link.com"
+      - "C:/Qt/Tools/mingw1120_64/bin/lld-link.exe"
+      - "C:/Qt/Tools/mingw1120_64/bin/lld-link"
+      - "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/bin/lld-link.com"
+      - "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/bin/lld-link.exe"
+      - "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/bin/lld-link"
+      - "C:/Users/robin/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/robin/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/robin/AppData/Roaming/npm/lld-link"
+      - "X:/Project Graph/lld-link.com"
+      - "X:/Project Graph/lld-link.exe"
+      - "X:/Project Graph/lld-link"
+      - "X:/Library/SDL2/lld-link.com"
+      - "X:/Library/SDL2/lld-link.exe"
+      - "X:/Library/SDL2/lld-link"
+      - "X:/Library/SDL2/lib/x64/lld-link.com"
+      - "X:/Library/SDL2/lib/x64/lld-link.exe"
+      - "X:/Library/SDL2/lib/x64/lld-link"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "X:/vs2026/src/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "X:/vs2026/src/VC/vcpkg/lld-link.com"
+      - "X:/vs2026/src/VC/vcpkg/lld-link.exe"
+      - "X:/vs2026/src/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\VCPackages"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "X:\\vs2026\\src\\MSBuild\\Current\\bin\\Roslyn"
+        - "X:\\vs2026\\src\\Team Tools\\DiagnosticsHub\\Collector"
+        - "X:\\vs2026\\src\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "X:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "X:\\Windows Kits\\10\\bin\\\\x64"
+        - "X:\\vs2026\\src\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "X:\\vs2026\\src\\Common7\\IDE\\"
+        - "X:\\vs2026\\src\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\node_modules\\npm"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "X:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\robin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "X:\\Microsoft VS Code\\bin"
+        - "C:\\Qt\\Tools\\mingw1120_64\\bin"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\QtDesignStudio-4.1.1-lts\\qt6_design_studio_reduced_version\\bin"
+        - "C:\\Users\\robin\\AppData\\Roaming\\npm"
+        - "X:\\Project Graph"
+        - "X:\\Library\\SDL2"
+        - "X:\\Library\\SDL2\\lib\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "X:\\vs2026\\src\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "X:/Windows Kits/10/bin/x64/"
+      - "X:/vs2026/src/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "X:/vs2026/src/Common7/IDE/"
+      - "X:/vs2026/src/Common7/Tools/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Qt/6.6.3/mingw_64/bin/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/node_modules/npm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "X:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/"
+      - "X:/Microsoft VS Code/bin/"
+      - "C:/Qt/Tools/mingw1120_64/bin/"
+      - "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/bin/"
+      - "C:/Users/robin/AppData/Roaming/npm/"
+      - "X:/Project Graph/"
+      - "X:/Library/SDL2/"
+      - "X:/Library/SDL2/lib/x64/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "X:/vs2026/src/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "X:/vs2026/src/VC/vcpkg/"
+    searched_directories:
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\VCPackages"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "X:\\vs2026\\src\\MSBuild\\Current\\bin\\Roslyn"
+        - "X:\\vs2026\\src\\Team Tools\\DiagnosticsHub\\Collector"
+        - "X:\\vs2026\\src\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "X:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "X:\\Windows Kits\\10\\bin\\\\x64"
+        - "X:\\vs2026\\src\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "X:\\vs2026\\src\\Common7\\IDE\\"
+        - "X:\\vs2026\\src\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\node_modules\\npm"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "X:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\robin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "X:\\Microsoft VS Code\\bin"
+        - "C:\\Qt\\Tools\\mingw1120_64\\bin"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\QtDesignStudio-4.1.1-lts\\qt6_design_studio_reduced_version\\bin"
+        - "C:\\Users\\robin\\AppData\\Roaming\\npm"
+        - "X:\\Project Graph"
+        - "X:\\Library\\SDL2"
+        - "X:\\Library\\SDL2\\lib\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "X:\\vs2026\\src\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "X:/Windows Kits/10/bin/x64/"
+      - "X:/vs2026/src/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "X:/vs2026/src/Common7/IDE/"
+      - "X:/vs2026/src/Common7/Tools/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Qt/6.6.3/mingw_64/bin/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/node_modules/npm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "X:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/"
+      - "X:/Microsoft VS Code/bin/"
+      - "C:/Qt/Tools/mingw1120_64/bin/"
+      - "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/bin/"
+      - "C:/Users/robin/AppData/Roaming/npm/"
+      - "X:/Project Graph/"
+      - "X:/Library/SDL2/"
+      - "X:/Library/SDL2/lib/x64/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "X:/vs2026/src/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "X:/vs2026/src/VC/vcpkg/"
+    searched_directories:
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/mt.com"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/mt.exe"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/mt"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.com"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.exe"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/mt.com"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/mt.exe"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/mt"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/mt.com"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/mt.exe"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/mt"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.com"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.exe"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/mt.com"
+    found: "X:/Windows Kits/10/bin/10.0.26100.0/x64/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\VCPackages"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "X:\\vs2026\\src\\MSBuild\\Current\\bin\\Roslyn"
+        - "X:\\vs2026\\src\\Team Tools\\DiagnosticsHub\\Collector"
+        - "X:\\vs2026\\src\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "X:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "X:\\Windows Kits\\10\\bin\\\\x64"
+        - "X:\\vs2026\\src\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "X:\\vs2026\\src\\Common7\\IDE\\"
+        - "X:\\vs2026\\src\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\node_modules\\npm"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "X:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\robin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "X:\\Microsoft VS Code\\bin"
+        - "C:\\Qt\\Tools\\mingw1120_64\\bin"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\QtDesignStudio-4.1.1-lts\\qt6_design_studio_reduced_version\\bin"
+        - "C:\\Users\\robin\\AppData\\Roaming\\npm"
+        - "X:\\Project Graph"
+        - "X:\\Library\\SDL2"
+        - "X:\\Library\\SDL2\\lib\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "X:\\vs2026\\src\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "X:/Windows Kits/10/bin/x64/"
+      - "X:/vs2026/src/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "X:/vs2026/src/Common7/IDE/"
+      - "X:/vs2026/src/Common7/Tools/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Qt/6.6.3/mingw_64/bin/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/node_modules/npm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "X:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/"
+      - "X:/Microsoft VS Code/bin/"
+      - "C:/Qt/Tools/mingw1120_64/bin/"
+      - "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/bin/"
+      - "C:/Users/robin/AppData/Roaming/npm/"
+      - "X:/Project Graph/"
+      - "X:/Library/SDL2/"
+      - "X:/Library/SDL2/lib/x64/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "X:/vs2026/src/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "X:/vs2026/src/VC/vcpkg/"
+    searched_directories:
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\VCPackages"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "X:\\vs2026\\src\\MSBuild\\Current\\bin\\Roslyn"
+        - "X:\\vs2026\\src\\Team Tools\\DiagnosticsHub\\Collector"
+        - "X:\\vs2026\\src\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "X:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "X:\\Windows Kits\\10\\bin\\\\x64"
+        - "X:\\vs2026\\src\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "X:\\vs2026\\src\\Common7\\IDE\\"
+        - "X:\\vs2026\\src\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\node_modules\\npm"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "X:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\robin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "X:\\Microsoft VS Code\\bin"
+        - "C:\\Qt\\Tools\\mingw1120_64\\bin"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\QtDesignStudio-4.1.1-lts\\qt6_design_studio_reduced_version\\bin"
+        - "C:\\Users\\robin\\AppData\\Roaming\\npm"
+        - "X:\\Project Graph"
+        - "X:\\Library\\SDL2"
+        - "X:\\Library\\SDL2\\lib\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "X:\\vs2026\\src\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/"
+    found: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\VCPackages"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "X:\\vs2026\\src\\MSBuild\\Current\\bin\\Roslyn"
+        - "X:\\vs2026\\src\\Team Tools\\DiagnosticsHub\\Collector"
+        - "X:\\vs2026\\src\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "X:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "X:\\Windows Kits\\10\\bin\\\\x64"
+        - "X:\\vs2026\\src\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "X:\\vs2026\\src\\Common7\\IDE\\"
+        - "X:\\vs2026\\src\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\node_modules\\npm"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "X:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\robin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "X:\\Microsoft VS Code\\bin"
+        - "C:\\Qt\\Tools\\mingw1120_64\\bin"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\QtDesignStudio-4.1.1-lts\\qt6_design_studio_reduced_version\\bin"
+        - "C:\\Users\\robin\\AppData\\Roaming\\npm"
+        - "X:\\Project Graph"
+        - "X:\\Library\\SDL2"
+        - "X:\\Library\\SDL2\\lib\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "X:\\vs2026\\src\\VC\\vcpkg"
+      ENV{INCLUDE}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\include"
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\ATLMFC\\include"
+        - "X:\\vs2026\\src\\VC\\Auxiliary\\VS\\include"
+        - "X:\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "X:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "X:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "X:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "X:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ΘÇéτö¿Σ║Ä .NET Framework MSBuild τëêµ£¼ 18.0.5+e22287bf1
+      τöƒµêÉσÉ»σè¿µù╢Θù┤Σ╕║ 2026/1/26 16:05:12πÇé
+      
+      Φèéτé╣ 1 Σ╕èτÜäΘí╣τ¢«ΓÇ£Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxprojΓÇ¥(Θ╗ÿΦ«ñτ¢«µáç)πÇé
+      PrepareForBuild:
+        µ¡úσ£¿σê¢σ╗║τ¢«σ╜òΓÇ£Debug\\ΓÇ¥πÇé
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        µ¡úσ£¿σê¢σ╗║τ¢«σ╜òΓÇ£Debug\\CompilerIdCXX.tlog\\ΓÇ¥πÇé
+      InitializeBuildStatus:
+        µ¡úσ£¿σê¢σ╗║ΓÇ£Debug\\CompilerIdCXX.tlog\\unsuccessfulbuildΓÇ¥∩╝îσ¢áΣ╕║σ╖▓µîçσ«ÜΓÇ£AlwaysCreateΓÇ¥πÇé
+        µ¡úσ£¿σ»╣ΓÇ£Debug\\CompilerIdCXX.tlog\\unsuccessfulbuildΓÇ¥µëºΦíî Touch Σ╗╗σèíπÇé
+      ClCompile:
+        X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        µ¡úσ£¿σêáΘÖñµûçΣ╗╢ΓÇ£Debug\\CompilerIdCXX.tlog\\unsuccessfulbuildΓÇ¥πÇé
+        µ¡úσ£¿σ»╣ΓÇ£Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstateΓÇ¥µëºΦíî Touch Σ╗╗σèíπÇé
+      σ╖▓σ«îµêÉτöƒµêÉΘí╣τ¢«ΓÇ£Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxprojΓÇ¥(Θ╗ÿΦ«ñτ¢«µáç)τÜäµôìΣ╜£πÇé
+      
+      σ╖▓µêÉσèƒτöƒµêÉπÇé
+          0 Σ╕¬Φ¡ªσæè
+          0 Σ╕¬ΘöÖΦ»»
+      
+      σ╖▓τö¿µù╢Θù┤ 00:00:00.58
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        Y:/cppGmae/fightAirplane/game/build/CMakeFiles/4.1.1-msvc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "X:/Windows Kits/10/bin/x64/"
+      - "X:/vs2026/src/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "X:/vs2026/src/Common7/IDE/"
+      - "X:/vs2026/src/Common7/Tools/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Qt/6.6.3/mingw_64/bin/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/node_modules/npm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "X:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/"
+      - "X:/Microsoft VS Code/bin/"
+      - "C:/Qt/Tools/mingw1120_64/bin/"
+      - "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/bin/"
+      - "C:/Users/robin/AppData/Roaming/npm/"
+      - "X:/Project Graph/"
+      - "X:/Library/SDL2/"
+      - "X:/Library/SDL2/lib/x64/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "X:/vs2026/src/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "X:/vs2026/src/VC/vcpkg/"
+    searched_directories:
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/lld-link"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "X:/Windows Kits/10/bin/x64/lld-link.com"
+      - "X:/Windows Kits/10/bin/x64/lld-link.exe"
+      - "X:/Windows Kits/10/bin/x64/lld-link"
+      - "X:/vs2026/src/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "X:/vs2026/src/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "X:/vs2026/src/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "X:/vs2026/src/Common7/IDE/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/lld-link"
+      - "X:/vs2026/src/Common7/Tools/lld-link.com"
+      - "X:/vs2026/src/Common7/Tools/lld-link.exe"
+      - "X:/vs2026/src/Common7/Tools/lld-link"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Qt/6.6.3/mingw_64/bin/lld-link.com"
+      - "C:/Qt/6.6.3/mingw_64/bin/lld-link.exe"
+      - "C:/Qt/6.6.3/mingw_64/bin/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/node_modules/npm/lld-link.com"
+      - "C:/Program Files/nodejs/node_modules/npm/lld-link.exe"
+      - "C:/Program Files/nodejs/node_modules/npm/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "X:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "X:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "X:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "X:/Microsoft VS Code/bin/lld-link.com"
+      - "X:/Microsoft VS Code/bin/lld-link.exe"
+      - "X:/Microsoft VS Code/bin/lld-link"
+      - "C:/Qt/Tools/mingw1120_64/bin/lld-link.com"
+      - "C:/Qt/Tools/mingw1120_64/bin/lld-link.exe"
+      - "C:/Qt/Tools/mingw1120_64/bin/lld-link"
+      - "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/bin/lld-link.com"
+      - "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/bin/lld-link.exe"
+      - "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/bin/lld-link"
+      - "C:/Users/robin/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/robin/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/robin/AppData/Roaming/npm/lld-link"
+      - "X:/Project Graph/lld-link.com"
+      - "X:/Project Graph/lld-link.exe"
+      - "X:/Project Graph/lld-link"
+      - "X:/Library/SDL2/lld-link.com"
+      - "X:/Library/SDL2/lld-link.exe"
+      - "X:/Library/SDL2/lld-link"
+      - "X:/Library/SDL2/lib/x64/lld-link.com"
+      - "X:/Library/SDL2/lib/x64/lld-link.exe"
+      - "X:/Library/SDL2/lib/x64/lld-link"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "X:/vs2026/src/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "X:/vs2026/src/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "X:/vs2026/src/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "X:/vs2026/src/VC/vcpkg/lld-link.com"
+      - "X:/vs2026/src/VC/vcpkg/lld-link.exe"
+      - "X:/vs2026/src/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\VCPackages"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "X:\\vs2026\\src\\MSBuild\\Current\\bin\\Roslyn"
+        - "X:\\vs2026\\src\\Team Tools\\DiagnosticsHub\\Collector"
+        - "X:\\vs2026\\src\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "X:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "X:\\Windows Kits\\10\\bin\\\\x64"
+        - "X:\\vs2026\\src\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "X:\\vs2026\\src\\Common7\\IDE\\"
+        - "X:\\vs2026\\src\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\node_modules\\npm"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "X:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\robin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "X:\\Microsoft VS Code\\bin"
+        - "C:\\Qt\\Tools\\mingw1120_64\\bin"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\QtDesignStudio-4.1.1-lts\\qt6_design_studio_reduced_version\\bin"
+        - "C:\\Users\\robin\\AppData\\Roaming\\npm"
+        - "X:\\Project Graph"
+        - "X:\\Library\\SDL2"
+        - "X:\\Library\\SDL2\\lib\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "X:\\vs2026\\src\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:581 (enable_language)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:554 (__windows_compiler_msvc_enable_rc)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "X:/Windows Kits/10/bin/x64/"
+      - "X:/vs2026/src/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "X:/vs2026/src/Common7/IDE/"
+      - "X:/vs2026/src/Common7/Tools/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Qt/6.6.3/mingw_64/bin/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/node_modules/npm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "X:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/"
+      - "X:/Microsoft VS Code/bin/"
+      - "C:/Qt/Tools/mingw1120_64/bin/"
+      - "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/bin/"
+      - "C:/Users/robin/AppData/Roaming/npm/"
+      - "X:/Project Graph/"
+      - "X:/Library/SDL2/"
+      - "X:/Library/SDL2/lib/x64/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "X:/vs2026/src/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "X:/vs2026/src/VC/vcpkg/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files (x86)/SDLShooter/bin/"
+      - "C:/Program Files (x86)/SDLShooter/sbin/"
+      - "C:/Program Files (x86)/SDLShooter/"
+    searched_directories:
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc.com"
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc.exe"
+      - "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/rc.com"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/rc.exe"
+      - "X:/vs2026/src/Common7/IDE/VC/vcpackages/rc"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.com"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.exe"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/rc.com"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/rc.exe"
+      - "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/rc"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/rc.com"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/rc.exe"
+      - "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/rc"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.com"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.exe"
+      - "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc"
+      - "X:/Windows Kits/10/bin/10.0.26100.0/x64/rc.com"
+    found: "X:/Windows Kits/10/bin/10.0.26100.0/x64/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\VCPackages"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "X:\\vs2026\\src\\MSBuild\\Current\\bin\\Roslyn"
+        - "X:\\vs2026\\src\\Team Tools\\DiagnosticsHub\\Collector"
+        - "X:\\vs2026\\src\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "X:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "X:\\Windows Kits\\10\\bin\\\\x64"
+        - "X:\\vs2026\\src\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "X:\\vs2026\\src\\Common7\\IDE\\"
+        - "X:\\vs2026\\src\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\node_modules\\npm"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "X:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\robin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "X:\\Microsoft VS Code\\bin"
+        - "C:\\Qt\\Tools\\mingw1120_64\\bin"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\QtDesignStudio-4.1.1-lts\\qt6_design_studio_reduced_version\\bin"
+        - "C:\\Users\\robin\\AppData\\Roaming\\npm"
+        - "X:\\Project Graph"
+        - "X:\\Library\\SDL2"
+        - "X:\\Library\\SDL2\\lib\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "X:\\vs2026\\src\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SDLShooter"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/SDLShooter"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "Y:/cppGmae/fightAirplane/game/build/CMakeFiles/CMakeScratch/TryCompile-22d8u1"
+      binary: "Y:/cppGmae/fightAirplane/game/build/CMakeFiles/CMakeScratch/TryCompile-22d8u1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'Y:/cppGmae/fightAirplane/game/build/CMakeFiles/CMakeScratch/TryCompile-22d8u1'
+        
+        Run Build Command(s): X:/vs2026/src/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6f183.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ΘÇéτö¿Σ║Ä .NET Framework MSBuild τëêµ£¼ 18.0.5+e22287bf1
+        τöƒµêÉσÉ»σè¿µù╢Θù┤Σ╕║ 2026/1/26 16:05:12πÇé
+        
+        Φèéτé╣ 1 Σ╕èτÜäΘí╣τ¢«ΓÇ£Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22d8u1\\cmTC_6f183.vcxprojΓÇ¥(Θ╗ÿΦ«ñτ¢«µáç)πÇé
+        PrepareForBuild:
+          µ¡úσ£¿σê¢σ╗║τ¢«σ╜òΓÇ£cmTC_6f183.dir\\Debug\\ΓÇ¥πÇé
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          µ¡úσ£¿σê¢σ╗║τ¢«σ╜òΓÇ£Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22d8u1\\Debug\\ΓÇ¥πÇé
+          µ¡úσ£¿σê¢σ╗║τ¢«σ╜òΓÇ£cmTC_6f183.dir\\Debug\\cmTC_6f183.tlog\\ΓÇ¥πÇé
+        InitializeBuildStatus:
+          µ¡úσ£¿σê¢σ╗║ΓÇ£cmTC_6f183.dir\\Debug\\cmTC_6f183.tlog\\unsuccessfulbuildΓÇ¥∩╝îσ¢áΣ╕║σ╖▓µîçσ«ÜΓÇ£AlwaysCreateΓÇ¥πÇé
+          µ¡úσ£¿σ»╣ΓÇ£cmTC_6f183.dir\\Debug\\cmTC_6f183.tlog\\unsuccessfulbuildΓÇ¥µëºΦíî Touch Σ╗╗σèíπÇé
+        ClCompile:
+          X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6f183.dir\\Debug\\\\" /Fd"cmTC_6f183.dir\\Debug\\vc145.pdb" /external:W3 /Gd /TC /errorReport:queue "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          τö¿Σ║Ä x64 τÜä Microsoft (R) C/C++ Σ╝ÿσîûτ╝ûΦ»æσÖ¿ 19.50.35723 τëê
+          τëêµ¥âµëÇµ£ë(C) Microsoft CorporationπÇéΣ┐¥τòÖµëÇµ£ëµ¥âσê⌐πÇé
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6f183.dir\\Debug\\\\" /Fd"cmTC_6f183.dir\\Debug\\vc145.pdb" /external:W3 /Gd /TC /errorReport:queue "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22d8u1\\Debug\\cmTC_6f183.exe" /INCREMENTAL /ILK:"cmTC_6f183.dir\\Debug\\cmTC_6f183.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Y:/cppGmae/fightAirplane/game/build/CMakeFiles/CMakeScratch/TryCompile-22d8u1/Debug/cmTC_6f183.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"Y:/cppGmae/fightAirplane/game/build/CMakeFiles/CMakeScratch/TryCompile-22d8u1/Debug/cmTC_6f183.lib" /MACHINE:X64  /machine:x64 cmTC_6f183.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_6f183.vcxproj -> Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22d8u1\\Debug\\cmTC_6f183.exe
+        FinalizeBuildStatus:
+          µ¡úσ£¿σêáΘÖñµûçΣ╗╢ΓÇ£cmTC_6f183.dir\\Debug\\cmTC_6f183.tlog\\unsuccessfulbuildΓÇ¥πÇé
+          µ¡úσ£¿σ»╣ΓÇ£cmTC_6f183.dir\\Debug\\cmTC_6f183.tlog\\cmTC_6f183.lastbuildstateΓÇ¥µëºΦíî Touch Σ╗╗σèíπÇé
+        σ╖▓σ«îµêÉτöƒµêÉΘí╣τ¢«ΓÇ£Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22d8u1\\cmTC_6f183.vcxprojΓÇ¥(Θ╗ÿΦ«ñτ¢«µáç)τÜäµôìΣ╜£πÇé
+        
+        σ╖▓µêÉσèƒτöƒµêÉπÇé
+            0 Σ╕¬Φ¡ªσæè
+            0 Σ╕¬ΘöÖΦ»»
+        
+        σ╖▓τö¿µù╢Θù┤ 00:00:00.49
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35723.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "Y:/cppGmae/fightAirplane/game/build/CMakeFiles/CMakeScratch/TryCompile-vj7jmo"
+      binary: "Y:/cppGmae/fightAirplane/game/build/CMakeFiles/CMakeScratch/TryCompile-vj7jmo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'Y:/cppGmae/fightAirplane/game/build/CMakeFiles/CMakeScratch/TryCompile-vj7jmo'
+        
+        Run Build Command(s): X:/vs2026/src/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c4d5a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ΘÇéτö¿Σ║Ä .NET Framework MSBuild τëêµ£¼ 18.0.5+e22287bf1
+        τöƒµêÉσÉ»σè¿µù╢Θù┤Σ╕║ 2026/1/26 16:05:13πÇé
+        
+        Φèéτé╣ 1 Σ╕èτÜäΘí╣τ¢«ΓÇ£Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vj7jmo\\cmTC_c4d5a.vcxprojΓÇ¥(Θ╗ÿΦ«ñτ¢«µáç)πÇé
+        PrepareForBuild:
+          µ¡úσ£¿σê¢σ╗║τ¢«σ╜òΓÇ£cmTC_c4d5a.dir\\Debug\\ΓÇ¥πÇé
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          µ¡úσ£¿σê¢σ╗║τ¢«σ╜òΓÇ£Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vj7jmo\\Debug\\ΓÇ¥πÇé
+          µ¡úσ£¿σê¢σ╗║τ¢«σ╜òΓÇ£cmTC_c4d5a.dir\\Debug\\cmTC_c4d5a.tlog\\ΓÇ¥πÇé
+        InitializeBuildStatus:
+          µ¡úσ£¿σê¢σ╗║ΓÇ£cmTC_c4d5a.dir\\Debug\\cmTC_c4d5a.tlog\\unsuccessfulbuildΓÇ¥∩╝îσ¢áΣ╕║σ╖▓µîçσ«ÜΓÇ£AlwaysCreateΓÇ¥πÇé
+          µ¡úσ£¿σ»╣ΓÇ£cmTC_c4d5a.dir\\Debug\\cmTC_c4d5a.tlog\\unsuccessfulbuildΓÇ¥µëºΦíî Touch Σ╗╗σèíπÇé
+        ClCompile:
+          X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_c4d5a.dir\\Debug\\\\" /Fd"cmTC_c4d5a.dir\\Debug\\vc145.pdb" /external:W3 /Gd /TP /errorReport:queue "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          τö¿Σ║Ä x64 τÜä Microsoft (R) C/C++ Σ╝ÿσîûτ╝ûΦ»æσÖ¿ 19.50.35723 τëê
+          τëêµ¥âµëÇµ£ë(C) Microsoft CorporationπÇéΣ┐¥τòÖµëÇµ£ëµ¥âσê⌐πÇé
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_c4d5a.dir\\Debug\\\\" /Fd"cmTC_c4d5a.dir\\Debug\\vc145.pdb" /external:W3 /Gd /TP /errorReport:queue "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vj7jmo\\Debug\\cmTC_c4d5a.exe" /INCREMENTAL /ILK:"cmTC_c4d5a.dir\\Debug\\cmTC_c4d5a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Y:/cppGmae/fightAirplane/game/build/CMakeFiles/CMakeScratch/TryCompile-vj7jmo/Debug/cmTC_c4d5a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"Y:/cppGmae/fightAirplane/game/build/CMakeFiles/CMakeScratch/TryCompile-vj7jmo/Debug/cmTC_c4d5a.lib" /MACHINE:X64  /machine:x64 cmTC_c4d5a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c4d5a.vcxproj -> Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vj7jmo\\Debug\\cmTC_c4d5a.exe
+        FinalizeBuildStatus:
+          µ¡úσ£¿σêáΘÖñµûçΣ╗╢ΓÇ£cmTC_c4d5a.dir\\Debug\\cmTC_c4d5a.tlog\\unsuccessfulbuildΓÇ¥πÇé
+          µ¡úσ£¿σ»╣ΓÇ£cmTC_c4d5a.dir\\Debug\\cmTC_c4d5a.tlog\\cmTC_c4d5a.lastbuildstateΓÇ¥µëºΦíî Touch Σ╗╗σèíπÇé
+        σ╖▓σ«îµêÉτöƒµêÉΘí╣τ¢«ΓÇ£Y:\\cppGmae\\fightAirplane\\game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vj7jmo\\cmTC_c4d5a.vcxprojΓÇ¥(Θ╗ÿΦ«ñτ¢«µáç)τÜäµôìΣ╜£πÇé
+        
+        σ╖▓µêÉσèƒτöƒµêÉπÇé
+            0 Σ╕¬Φ¡ªσæè
+            0 Σ╕¬ΘöÖΦ»»
+        
+        σ╖▓τö¿µù╢Θù┤ 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35723.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:31 (find_package)"
+    name: "SDL2"
+    configs:
+      -
+        filename: "SDL2Config.cmake"
+        kind: "cmake"
+      -
+        filename: "sdl2-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SDL2"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "Y:/cppGmae/fightAirplane/game/build/CMakeFiles/pkgRedirects/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "Y:/cppGmae/fightAirplane/game/build/CMakeFiles/pkgRedirects/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/VC/vcpackages/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/VC/vcpackages/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/10.0.26100.0/x64/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/10.0.26100.0/x64/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/x64/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/x64/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/amd64/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/amd64/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/Tools/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/Tools/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VMware/VMware Workstation/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VMware/VMware Workstation/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.6.3/mingw_64/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.6.3/mingw_64/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/node_modules/npm/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/node_modules/npm/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/Windows Performance Toolkit/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/Windows Performance Toolkit/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Microsoft VS Code/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Microsoft VS Code/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/mingw1120_64/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/mingw1120_64/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Roaming/npm/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Roaming/npm/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Project Graph/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Project Graph/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Library/SDL2/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Library/SDL2/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Library/SDL2/cmake/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "X:/Library/SDL2/cmake/sdl2-config.cmake"
+      mode: "config"
+      version: "2.32.10"
+    search_context:
+      ENV{PATH}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\VCPackages"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "X:\\vs2026\\src\\MSBuild\\Current\\bin\\Roslyn"
+        - "X:\\vs2026\\src\\Team Tools\\DiagnosticsHub\\Collector"
+        - "X:\\vs2026\\src\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "X:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "X:\\Windows Kits\\10\\bin\\\\x64"
+        - "X:\\vs2026\\src\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "X:\\vs2026\\src\\Common7\\IDE\\"
+        - "X:\\vs2026\\src\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\node_modules\\npm"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "X:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\robin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "X:\\Microsoft VS Code\\bin"
+        - "C:\\Qt\\Tools\\mingw1120_64\\bin"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\QtDesignStudio-4.1.1-lts\\qt6_design_studio_reduced_version\\bin"
+        - "C:\\Users\\robin\\AppData\\Roaming\\npm"
+        - "X:\\Project Graph"
+        - "X:\\Library\\SDL2"
+        - "X:\\Library\\SDL2\\lib\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "X:\\vs2026\\src\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SDLShooter"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/SDLShooter"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:32 (find_package)"
+    name: "SDL2_image"
+    configs:
+      -
+        filename: "SDL2_imageConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "sdl2_image-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SDL2_image"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "Y:/cppGmae/fightAirplane/game/build/CMakeFiles/pkgRedirects/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "Y:/cppGmae/fightAirplane/game/build/CMakeFiles/pkgRedirects/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/VC/vcpackages/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/VC/vcpackages/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/10.0.26100.0/x64/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/10.0.26100.0/x64/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/x64/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/x64/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/amd64/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/amd64/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/Tools/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/Tools/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VMware/VMware Workstation/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VMware/VMware Workstation/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.6.3/mingw_64/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.6.3/mingw_64/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/node_modules/npm/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/node_modules/npm/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/Windows Performance Toolkit/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/Windows Performance Toolkit/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Microsoft VS Code/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Microsoft VS Code/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/mingw1120_64/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/mingw1120_64/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Roaming/npm/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Roaming/npm/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Project Graph/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Project Graph/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Library/SDL2/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Library/SDL2/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Library/SDL2/cmake/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "X:/Library/SDL2/cmake/sdl2_image-config.cmake"
+      mode: "config"
+      version: "2.8.8"
+    search_context:
+      ENV{PATH}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\VCPackages"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "X:\\vs2026\\src\\MSBuild\\Current\\bin\\Roslyn"
+        - "X:\\vs2026\\src\\Team Tools\\DiagnosticsHub\\Collector"
+        - "X:\\vs2026\\src\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "X:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "X:\\Windows Kits\\10\\bin\\\\x64"
+        - "X:\\vs2026\\src\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "X:\\vs2026\\src\\Common7\\IDE\\"
+        - "X:\\vs2026\\src\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\node_modules\\npm"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "X:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\robin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "X:\\Microsoft VS Code\\bin"
+        - "C:\\Qt\\Tools\\mingw1120_64\\bin"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\QtDesignStudio-4.1.1-lts\\qt6_design_studio_reduced_version\\bin"
+        - "C:\\Users\\robin\\AppData\\Roaming\\npm"
+        - "X:\\Project Graph"
+        - "X:\\Library\\SDL2"
+        - "X:\\Library\\SDL2\\lib\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "X:\\vs2026\\src\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SDLShooter"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/SDLShooter"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:33 (find_package)"
+    name: "SDL2_mixer"
+    configs:
+      -
+        filename: "SDL2_mixerConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "sdl2_mixer-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SDL2_mixer"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "Y:/cppGmae/fightAirplane/game/build/CMakeFiles/pkgRedirects/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "Y:/cppGmae/fightAirplane/game/build/CMakeFiles/pkgRedirects/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/VC/vcpackages/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/VC/vcpackages/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/10.0.26100.0/x64/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/10.0.26100.0/x64/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/x64/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/x64/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/amd64/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/amd64/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/Tools/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/Tools/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VMware/VMware Workstation/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VMware/VMware Workstation/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.6.3/mingw_64/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.6.3/mingw_64/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/node_modules/npm/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/node_modules/npm/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/Windows Performance Toolkit/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/Windows Performance Toolkit/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Microsoft VS Code/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Microsoft VS Code/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/mingw1120_64/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/mingw1120_64/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Roaming/npm/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Roaming/npm/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Project Graph/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Project Graph/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Library/SDL2/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Library/SDL2/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Library/SDL2/cmake/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "X:/Library/SDL2/cmake/sdl2_mixer-config.cmake"
+      mode: "config"
+      version: "2.8.1"
+    search_context:
+      ENV{PATH}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\VCPackages"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "X:\\vs2026\\src\\MSBuild\\Current\\bin\\Roslyn"
+        - "X:\\vs2026\\src\\Team Tools\\DiagnosticsHub\\Collector"
+        - "X:\\vs2026\\src\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "X:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "X:\\Windows Kits\\10\\bin\\\\x64"
+        - "X:\\vs2026\\src\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "X:\\vs2026\\src\\Common7\\IDE\\"
+        - "X:\\vs2026\\src\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\node_modules\\npm"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "X:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\robin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "X:\\Microsoft VS Code\\bin"
+        - "C:\\Qt\\Tools\\mingw1120_64\\bin"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\QtDesignStudio-4.1.1-lts\\qt6_design_studio_reduced_version\\bin"
+        - "C:\\Users\\robin\\AppData\\Roaming\\npm"
+        - "X:\\Project Graph"
+        - "X:\\Library\\SDL2"
+        - "X:\\Library\\SDL2\\lib\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "X:\\vs2026\\src\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SDLShooter"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/SDLShooter"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:34 (find_package)"
+    name: "SDL2_ttf"
+    configs:
+      -
+        filename: "SDL2_ttfConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "sdl2_ttf-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SDL2_ttf"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "Y:/cppGmae/fightAirplane/game/build/CMakeFiles/pkgRedirects/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "Y:/cppGmae/fightAirplane/game/build/CMakeFiles/pkgRedirects/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/VC/vcpackages/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/VC/vcpackages/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TestWindow/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/Roslyn/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Team Tools/DiagnosticsHub/Collector/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/10.0.26100.0/x64/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/10.0.26100.0/x64/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/x64/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/bin/x64/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/amd64/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/MSBuild/Current/Bin/amd64/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/IDE/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/Tools/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/vs2026/src/Common7/Tools/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VMware/VMware Workstation/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VMware/VMware Workstation/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.6.3/mingw_64/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.6.3/mingw_64/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/node_modules/npm/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/node_modules/npm/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/Windows Performance Toolkit/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Windows Kits/10/Windows Performance Toolkit/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Local/Microsoft/WindowsApps/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Microsoft VS Code/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Microsoft VS Code/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/mingw1120_64/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/mingw1120_64/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/Tools/QtDesignStudio-4.1.1-lts/qt6_design_studio_reduced_version/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Roaming/npm/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/robin/AppData/Roaming/npm/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Project Graph/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Project Graph/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Library/SDL2/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Library/SDL2/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "X:/Library/SDL2/cmake/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "X:/Library/SDL2/cmake/sdl2_ttf-config.cmake"
+      mode: "config"
+      version: "2.24.0"
+    search_context:
+      ENV{PATH}:
+        - "X:\\vs2026\\src\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\VCPackages"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "X:\\vs2026\\src\\MSBuild\\Current\\bin\\Roslyn"
+        - "X:\\vs2026\\src\\Team Tools\\DiagnosticsHub\\Collector"
+        - "X:\\vs2026\\src\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "X:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "X:\\Windows Kits\\10\\bin\\\\x64"
+        - "X:\\vs2026\\src\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "X:\\vs2026\\src\\Common7\\IDE\\"
+        - "X:\\vs2026\\src\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\node_modules\\npm"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "X:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\robin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "X:\\Microsoft VS Code\\bin"
+        - "C:\\Qt\\Tools\\mingw1120_64\\bin"
+        - "C:\\Qt\\6.6.3\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\QtDesignStudio-4.1.1-lts\\qt6_design_studio_reduced_version\\bin"
+        - "C:\\Users\\robin\\AppData\\Roaming\\npm"
+        - "X:\\Project Graph"
+        - "X:\\Library\\SDL2"
+        - "X:\\Library\\SDL2\\lib\\x64"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "X:\\vs2026\\src\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "X:\\vs2026\\src\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "X:\\vs2026\\src\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SDLShooter"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "X:/vs2026/src/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/SDLShooter"
+...

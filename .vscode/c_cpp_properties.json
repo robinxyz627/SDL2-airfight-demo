@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "X:/Library/SDL2/include"
+            ],
+            "defines": [
+                "WIN32",
+                "_DEBUG", 
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "cl.exe",  // 如果使用MSVC
+            "cStandard": "c17",
+            "cppStandard": "c++17", 
+            "intelliSenseMode": "windows-msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "X:/Library/SDL2/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

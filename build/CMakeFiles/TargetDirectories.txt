@@ -1,0 +1,3 @@
+Y:/cppGmae/fightAirplane/game/build/CMakeFiles/SDLShooter-Windows.dir
+Y:/cppGmae/fightAirplane/game/build/CMakeFiles/ALL_BUILD.dir
+Y:/cppGmae/fightAirplane/game/build/CMakeFiles/ZERO_CHECK.dir
