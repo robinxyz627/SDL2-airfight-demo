@@ -10,6 +10,9 @@
     <ClCompile Include="Y:\cppGmae\fightAirplane\game\src\sceneMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Y:\cppGmae\fightAirplane\game\src\sceneTitle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="Y:\cppGmae\fightAirplane\game\CMakeLists.txt" />

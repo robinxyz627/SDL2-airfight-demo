@@ -451,6 +451,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="Y:\cppGmae\fightAirplane\game\src\main.cpp" />
     <ClCompile Include="Y:\cppGmae\fightAirplane\game\src\game.cpp" />
     <ClCompile Include="Y:\cppGmae\fightAirplane\game\src\sceneMain.cpp" />
+    <ClCompile Include="Y:\cppGmae\fightAirplane\game\src\sceneTitle.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -39,7 +39,8 @@ find_package(SDL2_ttf REQUIRED)
 add_executable(${TARGET} 
 src/main.cpp
 src/game.cpp
-src/sceneMain.cpp)
+src/sceneMain.cpp
+src/sceneTitle.cpp)
 
 # 设置项目根目录宏
 target_compile_definitions(${TARGET} PRIVATE PROJECT_ROOT="${CMAKE_SOURCE_DIR}")

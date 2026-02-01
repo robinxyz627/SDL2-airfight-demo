@@ -1,4 +1,5 @@
 #include "sceneMain.h"
+#include "sceneTitle.h"
 #include "game.h"
 #include "SDL.h"
 #include "SDL_image.h"
@@ -342,6 +343,9 @@ void SceneMain::keyBoardInput()
     // clear
     inputPos = {0, 0};
     auto keyArry = SDL_GetKeyboardState(NULL);
+    SDL_Log("WASD State - A:%d, W:%d, S:%d, D:%d", 
+            keyArry[SDL_SCANCODE_A], keyArry[SDL_SCANCODE_W], 
+            keyArry[SDL_SCANCODE_S], keyArry[SDL_SCANCODE_D]);
     if (keyArry[SDL_SCANCODE_A] || keyArry[SDL_SCANCODE_LEFT])
     {
         inputPos.x = -1;
@@ -357,6 +361,9 @@ void SceneMain::keyBoardInput()
     if (keyArry[SDL_SCANCODE_S] || keyArry[SDL_SCANCODE_DOWN])
     {
         inputPos.y = 1;
+    }
+    if(keyArry[SDL_SCANCODE_ESCAPE]){
+        game.changeScene(new SceneTitle());
     }
 }
 void SceneMain::playerUpdate(float delteTime)

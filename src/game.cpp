@@ -1,5 +1,6 @@
 #include "game.h"
 #include "sceneMain.h"
+#include "sceneTitle.h"
 #include <SDL.h>
 #include <SDL_image.h>
 #include <SDL_ttf.h>
@@ -134,8 +135,9 @@ void Game::init()
     }
 
     is_running = true;
-    SceneMain *ms = new SceneMain(); // model
-    changeScene(ms);
+    // SceneMain *ms = new SceneMain(); // model
+    SceneTitle *st = new SceneTitle();
+    changeScene(st);
 }
 
 void Game::clean()

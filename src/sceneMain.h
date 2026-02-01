@@ -43,6 +43,8 @@ public:
     void render() override;
     void handleEvents(SDL_Event *ev) override;
     void clean() override;
+
+private:
     void keyBoardInput();
 
     void playerUpdate(float delteTime);
@@ -53,9 +55,9 @@ public:
 
     void enemyUpdate(float delteTime);
     void enemyRender();
-    void enemyExplosion(Enemy* enemy);
+    void enemyExplosion(Enemy *enemy);
 
-    void enemybulletShoot(Enemy* obj);
+    void enemybulletShoot(Enemy *obj);
     void enemybulletUpdate(float delteTime);
     void enemybulletRender();
     SDL_FPoint directionNormalize(Enemy *enemy);
@@ -77,8 +79,8 @@ private:
     Mix_Music *bgm;
     Player playerMain;
     Input inputPos;
-    void areaFilter(SDL_FPoint &src,SDL_FPoint &dst);
-    std::list<Bullet*> bulletList;
+    void areaFilter(SDL_FPoint &src, SDL_FPoint &dst);
+    std::list<Bullet *> bulletList;
     Bullet bulletTemplate;
 
     std::mt19937 generator;
@@ -86,32 +88,31 @@ private:
     std::uniform_int_distribution<int> distributionInt;
     void randomInit();
 
-    std::list<Enemy*> enemyList;
+    std::list<Enemy *> enemyList;
     Enemy enemyTemplate;
 
-    std::list<Enemybullet*> enemyBulletList;
+    std::list<Enemybullet *> enemyBulletList;
     Enemybullet enemyBulletTemplate;
 
-    std::list<Explosion*> explosionList;
+    std::list<Explosion *> explosionList;
     Explosion explosionTemplate;
 
-    std::list<BufferItem*> itemList;
+    std::list<BufferItem *> itemList;
     BufferItem itemBulletsTemplate;
     BufferItem itemHealthTemplate;
     BufferItem itemShieldTemplate;
     BufferItem itemTimeTemplate;
 
-    std::map<soundType,Mix_Chunk*> sounds;
+    std::map<soundType, Mix_Chunk *> sounds;
 
-    //status
+    // status
     bool isDead = false;
 
-    //PlayerManager
+    // PlayerManager
     void hpChange(int delta);
 
-    //UI
+    // UI
     int score = 0;
     SDL_Texture *uiHealthTexture;
     TTF_Font *scoreFont;
-
 };
