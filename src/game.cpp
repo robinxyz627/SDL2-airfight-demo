@@ -2,6 +2,8 @@
 #include "sceneMain.h"
 #include <SDL.h>
 #include <SDL_image.h>
+#include <SDL_ttf.h>
+#include <SDL_mixer.h>
 #include <iostream>
 Game::Game()
 {
@@ -39,7 +41,9 @@ void Game::run()
             {
                 SDL_Delay(frameTimer - frameDiff);
                 deltaTime = frameTimer / 1000.0f;
-            }else{
+            }
+            else
+            {
                 deltaTime = frameDiff / 1000.0f;
             }
         }
@@ -78,13 +82,59 @@ void Game::init()
         is_running = false;
         return;
     }
-    if(IMG_Init(IMG_INIT_PNG) != IMG_INIT_PNG){
+    if (IMG_Init(IMG_INIT_PNG) != IMG_INIT_PNG)
+    {
         SDL_LogError(SDL_LOG_CATEGORY_ERROR, "Couldn't initialize SDL_image: %s\n", IMG_GetError());
         is_running = false;
         return;
     }
+
+    if (Mix_Init(MIX_INIT_MP3 | MIX_INIT_OGG) != (MIX_INIT_MP3 | MIX_INIT_OGG))
+    {
+        SDL_LogError(SDL_LOG_CATEGORY_ERROR, "Couldn't initialize SDL_mixer: %s\n", Mix_GetError());
+        is_running = false;
+        return;
+    }
+    if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0)
+    {
+        SDL_LogError(SDL_LOG_CATEGORY_ERROR, "Couldn't open audio: %s\n", Mix_GetError());
+        is_running = false;
+        return;
+    }
+    Mix_AllocateChannels(32);
+    Mix_VolumeMusic(MIX_MAX_VOLUME / 4);
+    Mix_Volume(-1, MIX_MAX_VOLUME / 8);
+
+    // bg init
+    std::string bgPath = std::string(PROJECT_ROOT) + "/assets/image/Stars-A.png";
+    nearBg.texture = IMG_LoadTexture(renderer, bgPath.c_str());
+    bgPath = std::string(PROJECT_ROOT) + "/assets/image/Stars-B.png";
+    farBg.texture = IMG_LoadTexture(renderer, bgPath.c_str());
+    if (nearBg.texture == nullptr || farBg.texture == nullptr)
+    {
+        SDL_LogError(SDL_LOG_CATEGORY_ERROR, "Couldn't load background image: %s\n", SDL_GetError());
+        is_running = false;
+        return;
+    }
+    SDL_QueryTexture(nearBg.texture, NULL, NULL, &nearBg.width, &nearBg.height);
+    nearBg.width /= 2;
+    nearBg.height /= 2;
+    nearBg.speed = 20;
+    SDL_QueryTexture(farBg.texture, NULL, NULL, &farBg.width, &farBg.height);
+    farBg.width /= 4;
+    farBg.height /= 4;
+    farBg.speed = 10;
+
+    // TTF
+    if (TTF_Init() != 0)
+    {
+        SDL_LogError(SDL_LOG_CATEGORY_ERROR, "Failed to init TTF: %s", SDL_GetError());
+        is_running = false;
+        return;
+    }
+
     is_running = true;
-    SceneMain *ms = new SceneMain();//model
+    SceneMain *ms = new SceneMain(); // model
     changeScene(ms);
 }
 
@@ -100,8 +150,19 @@ void Game::clean()
     if (window != nullptr)
         SDL_DestroyWindow(window);
 
+    if (nearBg.texture != nullptr)
+    {
+        SDL_DestroyTexture(nearBg.texture);
+    }
+    if (farBg.texture != nullptr)
+    {
+        SDL_DestroyTexture(farBg.texture);
+    }
 
+    TTF_Quit();
     IMG_Quit();
+    Mix_CloseAudio();
+    Mix_Quit();
     SDL_Quit();
 }
 
@@ -130,12 +191,14 @@ void Game::handleEvents(SDL_Event *ev)
 
 void Game::update(float dt)
 {
+    bgUpdate(dt);
     currScene->update(dt);
 }
 
 void Game::render()
 {
     SDL_RenderClear(renderer);
+    bgRender();
     currScene->render();
     SDL_RenderPresent(renderer);
 }
@@ -148,4 +211,39 @@ void Game::logLevel()
 void Game::gameLog()
 {
     SDL_LogDebug(SDL_LOG_CATEGORY_APPLICATION, "tick", SDL_GetTicks());
+}
+
+void Game::bgUpdate(float dt)
+{
+    nearBg.offset += nearBg.speed * dt;
+    if (nearBg.offset >= 0)
+    {
+        nearBg.offset -= nearBg.height;
+    }
+    farBg.offset += farBg.speed * dt;
+    if (farBg.offset >= 0)
+    {
+        farBg.offset -= farBg.height;
+    }
+}
+
+void Game::bgRender()
+{
+    for (int posY = static_cast<int>(nearBg.offset); posY < getGameHeight(); posY += nearBg.height)
+    {
+        for (int posX = 0; posX < getGameWidth(); posX += nearBg.width)
+        {
+            SDL_Rect dst = {posX, posY, nearBg.width, nearBg.height};
+            SDL_RenderCopy(renderer, nearBg.texture, NULL, &dst);
+        }
+    }
+
+    for (int posY = static_cast<int>(farBg.offset); posY < getGameHeight(); posY += farBg.height)
+    {
+        for (int posX = 0; posX < getGameWidth(); posX += farBg.width)
+        {
+            SDL_Rect dst = {posX, posY, farBg.width, farBg.height};
+            SDL_RenderCopy(renderer, farBg.texture, NULL, &dst);
+        }
+    }
 }

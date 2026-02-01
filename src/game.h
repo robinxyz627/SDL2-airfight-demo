@@ -1,6 +1,7 @@
 #pragma once
 
 #include "sceneBase.h"
+#include "object.h"
 // singleton
 class Game
 {
@@ -22,6 +23,8 @@ public:
     int getGameWidth() { return gameWidth; }
     int getGameHeight() { return gameHeight; }
 
+    int getGameFps() { return fps; }
+
 private:
     Game();
     //删除拷贝和复制构造函数
@@ -38,4 +41,11 @@ private:
     int fps = 60;
     Uint32 frameTimer;
     float deltaTime;
+
+    //bg
+    BackgroundSprite nearBg;
+    BackgroundSprite farBg;
+    void bgUpdate(float dt);
+    void bgRender();
+
 };
